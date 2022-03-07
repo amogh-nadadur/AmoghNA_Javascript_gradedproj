@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#mainDiv{
+    border: 1px solid black;
+    width: 50vw;
+    height: fit-content;
+    position: absolute;
+    top: 10vw;
+    left: 25%;
+}
+
+#inputDiv>h1{
+    text-align: left;
+    margin: 1.5vw;
+    color:rgb(70, 15, 170);
+}
+
+#taskInput{
+    border: 1px solid black;
+    margin: 2vw;
+    padding: 1.25vw;
+    resize: none;
+    height: 0.5vw;
+    display: inline;
+    width: 30vw;
+}
+
+#inputDiv>button{
+    margin-left: 5.8vw;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    color: white;
+    background-color: rgb(70, 15, 170);
+    width: 6vw;
+}
+
+
+#displayDiv{
+    margin-bottom: 2vw;
+}
+
+.editBtn{
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    margin-left: 1.5vw;
+    color: white;
+    background-color: rgb(50, 238, 50);
+    width: 6vw;
+}
+
+.deleteBtn{
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    margin-left: 1.5vw;
+    color: white;
+    background-color: red;
+    width: 6vw;
+}
+
+#displayDiv p{
+    display: inline-block;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    font-weight: bold;
+    width: 30vw;
+    margin: 0 0 5px 10px;
+}
+
+#displayDiv>button{
+    display: inline-block;
+}
